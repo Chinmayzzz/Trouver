@@ -1,13 +1,82 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  text-align: center;
+  justify-content: center;
 }
+
+
+.hero {
+  height: 685px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("./components/bg-img.jpg");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  margin: 20px 30px;
+}
+
+.hero-banner {
+  text-align: center;
+  padding: 0 3rem;
+  color: #fff;
+}
+
+.hero-banner h4 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 0.4rem;
+}
+
+.hero-banner p {
+  max-width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: #fff;
+  letter-spacing: 0.2rem;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.input-bar {
+  height: 35px;
+  width: 100%;
+  border-radius: 20px;
+  border: 4px solid #fff;
+  background: transparent;
+  color: #fff;
+  text-align: center;
+}
+
+.input-bar:hover {
+  background: #fff;
+  color: #000;
+}
+
+.hero-btn {
+  font-size: 1.25rem;
+  background-color: #fff;
+  color: rgb(118, 118, 118);
+  padding: 2px 24px;
+  text-decoration: none;
+  border: 4px solid #fff;
+  margin-top: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.hero-btn:hover{
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+
